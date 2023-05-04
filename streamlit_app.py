@@ -1,1 +1,2 @@
-created_the_main_python_file
+import streamlit
+streamlit.title('Hello Folks')
