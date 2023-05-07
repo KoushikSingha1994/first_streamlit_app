@@ -50,5 +50,5 @@ try:
   if not add_fruit:
     streamlit.error("Please enter fruit name to insert")
   else:
-    result = insert_row_snowflake(add_fruit)
-    stremlit.write(result)
+    my_result = insert_row_snowflake(add_fruit)
+    streamlit.write(my_result)
