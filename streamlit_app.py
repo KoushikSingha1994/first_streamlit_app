@@ -52,3 +52,5 @@ try:
   else:
     my_result = insert_row_snowflake(add_fruit)
     streamlit.write(my_result)
+except URLError as e:
+  streamlit.error()
